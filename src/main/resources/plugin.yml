@@ -1,0 +1,18 @@
+name: FunTimeItems
+version: 1.0.0
+main: ru.funtime.items.FunTimeItems
+api-version: '1.21'
+author: ChatGPT
+description: FunTime-inspired Crusher tools, armor, and craftable talismans.
+commands:
+  ftitems:
+    description: Show available FunTime-inspired items
+    usage: /ftitems
+  fttalisman:
+    description: Give a talisman by id
+    usage: /fttalisman <id>
+    permission: funtimeitems.admin
+permissions:
+  funtimeitems.admin:
+    description: Allows giving custom items
+    default: op
